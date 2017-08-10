@@ -1,0 +1,262 @@
+body
+{
+    margin: 0 auto;
+    background-image: url('../images/ep_naturalwhite.png');
+}
+
+.content-wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nav-wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav
+{
+    height: 70px;
+    border-bottom: 2px solid #cccccc;
+    background-color: #fff;
+}
+
+.site-logo
+{
+    width: auto;
+    height: 70px;
+    float: left;
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+}
+
+.site-menu
+{
+    float: right;
+    display: inline-block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.site-logo h1
+{
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+.site-menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-menu ul li
+{
+    display: inline;
+    vertical-align:middle;
+    line-height: 70px;
+    padding-right: 20px;
+}
+
+.site-menu ul li a
+{
+    color: #777777;
+    text-decoration: none;
+}
+
+.site-menu ul li a:hover,
+.site-menu ul li a.active
+{
+    color: #4aaaa7;
+}
+
+#seperator
+{
+    color: #777777;
+}
+
+#end
+{
+    padding-right: 0px;
+}
+
+/* Page Stuff */
+.content
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main
+{
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    width: 650px;
+    float: left;
+}
+
+.sidebar
+{
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    width: 270px;
+    float: right;
+}
+
+.main-content
+{
+    padding: 25px;
+}
+
+.sidebar-content
+{
+    padding: 0 25px 25px 25px;
+}
+
+.main-content h1
+{
+    font-size: 32px;
+    margin-top: 0;
+    color: #4aaaa5;
+}
+
+.sidebar-content h2
+{
+    font-size: 28px;
+    padding-top: 20px;
+    color: #4aaaa5;
+    text-align: center;
+}
+
+p
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+    color: #777777;
+}
+
+#about-image
+{
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 33%;
+}
+
+#social-buttons
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#social-buttons img
+{
+    width: 25%;
+}
+
+hr
+{
+    height: 2px;
+    background-color: #cccccc;
+    border: none;
+    margin: 20px 0 20px 0;
+}
+
+.push
+{
+    clear: both;
+    height: 100px;
+    padding-top: 50px;
+}
+
+footer
+{
+    height: 100px;
+    margin-top: -100px;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+}
+
+#copy
+{
+    line-height: 100px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+/* Contact Page */
+
+form p
+{
+    line-height: 2;
+}
+
+input
+{
+    width: 100%;
+    height: 25px;
+}
+
+textarea
+{
+    width: 100%;
+    height: 150px;
+    border-color: #dddddd;
+}
+
+button
+{
+    background-color: #4aaaa5;
+    border: none;
+    margin-top: 25px;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Portfolio Page */
+
+.portfolio-item
+{
+    z-index: 1;
+    width: 280px;
+    height: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+.item-right
+{
+    margin-left: 25px;
+}
+
+.portfolio-item img
+{
+    position: absolute;
+    width: 279px;
+    left: 0;
+    top: 0;
+}
+
+.caption
+{
+    z-index: 2;
+    position: relative;
+    left: 0px;
+    top: 150px;
+    padding: 10px 82px 10px 83px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #fff;
+}

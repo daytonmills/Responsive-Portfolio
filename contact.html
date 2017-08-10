@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Portfolio - Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+</head>
+
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <div class="site-logo">
+            <h1>Dayton Mills</h1>
+        </div>
+        <div class="site-menu">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li id="seperator">|</li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li id="seperator">|</li>
+                <li id="end"><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="content-wrapper">
+    <div class="content">
+        <div class="main">
+            <div class="main-content">
+                <h1>Contact</h1>
+                <hr>
+                <form action="mail.php" method="POST">
+                    <p>Name</p>
+                    <input type="text" name="name"></input>
+
+                    <p>Email</p>
+                    <input type="text" name="email"></input>
+
+                    <p>Message</p>
+                    <textarea name="message"></textarea>
+                    <form action="mail.php" method="POST">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <h2>Connect with me</h2>
+                <hr>
+                <div id="social-buttons">
+                    <a href="https://github.com/daytonmills"><img src="assets/images/github.png"/></a>
+                    <a href="https://www.linkedin.com/in/dayton-mills-25a8a312b/"><img src="assets/images/linkedin.png"/></a>
+                    <a href="https://stackoverflow.com/users/3185447/dayton?tab=profile"><img src="assets/images/stackoverflow.png"/></a>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="push"></div>
+<footer>
+    <p id="copy">&copy; Copyright 2017 Dayton Mills</p>
+</footer>
+</body>
+</html>
