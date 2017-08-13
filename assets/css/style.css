@@ -283,6 +283,11 @@ input[type=submit] {
 
 @media screen and (max-width: 640px)
 {
+    #masthead
+    {
+        position: static;
+    }
+
     #logo{
         width: 100%;
     }
@@ -307,7 +312,7 @@ input[type=submit] {
 
     #main-container
     {
-        padding-top: 160px;
+        padding-top: 0px;
     }
 
     .auth-image
