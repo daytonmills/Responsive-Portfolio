@@ -237,3 +237,35 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Media Queries*/
+@media screen and (max-width: 980px)
+{
+    .container
+    {
+        max-width: 750px;
+    }
+    .main-section
+    {
+        max-width: 428px;
+    }
+    .sidebar
+    {
+
+    }
+    .auth-image
+    {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+
+}
+
+@media screen and (max-width: 640px)
+{
+
+}
