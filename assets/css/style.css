@@ -257,12 +257,28 @@ input[type=submit] {
     {
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 768px)
 {
-
+    .container
+    {
+        max-width: 750px;
+    }
+    .main-section
+    {
+        float: none;
+        max-width: 100%;
+    }
+    .sidebar
+    {
+        float: none;
+        max-width: 100%;
+    }
+    .auth-image
+    {
+        width: 340px;
+    }
 }
 
 @media screen and (max-width: 640px)
