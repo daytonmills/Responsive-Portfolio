@@ -288,6 +288,26 @@ input[type=submit] {
     }
 }
 
+@media screen and (min-width: 641px) and (max-width: 760px)
+{
+    .work
+    {
+        width: 100%;
+    }
+    #portfolio-page
+    {
+        height: 2600px;
+    }
+    .main-section,
+    .sidebar
+    {
+        margin: 0 auto 30px;
+        width: 650px;
+    }
+
+}
+
+
 @media screen and (max-width: 640px)
 {
     #masthead
